@@ -1,0 +1,18 @@
+lib/stripslash.o: lib/stripslash.c \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/stdc-predef.h \
+ config.h lib/dirname.h \
+ /nix/store/dyg1ifz5yk54jqbd85xbp68wlf3ywmh4-gcc-7.3.0/lib/gcc/x86_64-unknown-linux-gnu/7.3.0/include/stdbool.h \
+ /nix/store/dyg1ifz5yk54jqbd85xbp68wlf3ywmh4-gcc-7.3.0/lib/gcc/x86_64-unknown-linux-gnu/7.3.0/include/stddef.h \
+ lib/dosname.h
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/stdc-predef.h:
+
+config.h:
+
+lib/dirname.h:
+
+/nix/store/dyg1ifz5yk54jqbd85xbp68wlf3ywmh4-gcc-7.3.0/lib/gcc/x86_64-unknown-linux-gnu/7.3.0/include/stdbool.h:
+
+/nix/store/dyg1ifz5yk54jqbd85xbp68wlf3ywmh4-gcc-7.3.0/lib/gcc/x86_64-unknown-linux-gnu/7.3.0/include/stddef.h:
+
+lib/dosname.h:

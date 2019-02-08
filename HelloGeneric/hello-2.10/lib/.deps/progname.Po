@@ -1,0 +1,201 @@
+lib/progname.o: lib/progname.c \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/stdc-predef.h \
+ config.h lib/progname.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/errno.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/features.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/sys/cdefs.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/wordsize.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/long-double.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/gnu/stubs.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/gnu/stubs-64.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/errno.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/linux/errno.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/asm/errno.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/asm-generic/errno.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/asm-generic/errno-base.h \
+ lib/stdio.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/stdio.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/libc-header-start.h \
+ /nix/store/dyg1ifz5yk54jqbd85xbp68wlf3ywmh4-gcc-7.3.0/lib/gcc/x86_64-unknown-linux-gnu/7.3.0/include/stddef.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/types.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/typesizes.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/types/__FILE.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/types/FILE.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/libio.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/_G_config.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/types/__mbstate_t.h \
+ /nix/store/dyg1ifz5yk54jqbd85xbp68wlf3ywmh4-gcc-7.3.0/lib/gcc/x86_64-unknown-linux-gnu/7.3.0/include/stdarg.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/stdio_lim.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/sys_errlist.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/stdio.h \
+ lib/sys/types.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/sys/types.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/types/clock_t.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/types/clockid_t.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/types/time_t.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/types/timer_t.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/stdint-intn.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/endian.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/endian.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/byteswap.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/byteswap-16.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/uintn-identity.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/sys/select.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/select.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/types/sigset_t.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/types/__sigset_t.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/types/struct_timeval.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/types/struct_timespec.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/sys/sysmacros.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/sysmacros.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/pthreadtypes.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/thread-shared-types.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/pthreadtypes-arch.h \
+ lib/stdlib.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/stdlib.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/waitflags.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/waitstatus.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/floatn.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/floatn-common.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/types/locale_t.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/types/__locale_t.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/alloca.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/stdlib-bsearch.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/stdlib-float.h \
+ lib/string.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/string.h \
+ /nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/strings.h
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/stdc-predef.h:
+
+config.h:
+
+lib/progname.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/errno.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/features.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/sys/cdefs.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/wordsize.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/long-double.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/gnu/stubs.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/gnu/stubs-64.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/errno.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/linux/errno.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/asm/errno.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/asm-generic/errno.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/asm-generic/errno-base.h:
+
+lib/stdio.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/stdio.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/libc-header-start.h:
+
+/nix/store/dyg1ifz5yk54jqbd85xbp68wlf3ywmh4-gcc-7.3.0/lib/gcc/x86_64-unknown-linux-gnu/7.3.0/include/stddef.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/types.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/typesizes.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/types/__FILE.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/types/FILE.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/libio.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/_G_config.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/types/__mbstate_t.h:
+
+/nix/store/dyg1ifz5yk54jqbd85xbp68wlf3ywmh4-gcc-7.3.0/lib/gcc/x86_64-unknown-linux-gnu/7.3.0/include/stdarg.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/stdio_lim.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/sys_errlist.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/stdio.h:
+
+lib/sys/types.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/sys/types.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/types/clock_t.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/types/clockid_t.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/types/time_t.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/types/timer_t.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/stdint-intn.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/endian.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/endian.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/byteswap.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/byteswap-16.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/uintn-identity.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/sys/select.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/select.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/types/sigset_t.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/types/__sigset_t.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/types/struct_timeval.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/types/struct_timespec.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/sys/sysmacros.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/sysmacros.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/pthreadtypes.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/thread-shared-types.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/pthreadtypes-arch.h:
+
+lib/stdlib.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/stdlib.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/waitflags.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/waitstatus.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/floatn.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/floatn-common.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/types/locale_t.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/types/__locale_t.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/alloca.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/stdlib-bsearch.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/bits/stdlib-float.h:
+
+lib/string.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/string.h:
+
+/nix/store/c7y0ljhmii8bgld7mjjsqz2rgr68hhhb-glibc-2.27-dev/include/strings.h:
