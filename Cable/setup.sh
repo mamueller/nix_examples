@@ -22,7 +22,8 @@ function unpackPhase(){
 }
 
 function buildPhase(){
-	gfortran hello.F90
+	cd offline
+	mksh build.ksh
 }
 function installPhase(){
 	mv a.out hello

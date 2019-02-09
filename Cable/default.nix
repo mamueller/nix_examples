@@ -4,5 +4,5 @@ let
 in mkDerivation {
   name ="cable";
   src =./cable2.0-trunk.tgz;
-  buildInputs = with pkgs; [ gfortran netcdffortran];
+  buildInputs = with pkgs; [ mksh gfortran netcdffortran ];
 }
