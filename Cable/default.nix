@@ -3,6 +3,8 @@ let
   mkDerivation = import ./autotools.nix pkgs;
 in mkDerivation {
   name ="cable";
-  src =./cable2.0-trunk.tgz;
+  src =./cable2.0-trunk;
+  ##src =./cable2.0-trunk.tgz;
   buildInputs = with pkgs; [ mksh gfortran netcdffortran ];
+  ncd= with pkgs; netcdffortran;
 }
