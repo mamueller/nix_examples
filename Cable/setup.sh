@@ -21,14 +21,14 @@ export NCMOD="$ncd/include${NCMOD:+ }$NCMOD"
 function unpackPhase(){
 	echo "nothing to unpack"
 	ctn='cable2.0-trunk'
-	cp -r ${src} ${ctn}
+	#cp -r ${src} ${ctn}
 }
 
 function buildPhase(){
-	echo "#################################"
-	echo $(ls .) 
-	ls  "${ctn}/" 
-	echo "#################################"
+	#echo "#################################"
+	#echo $(ls .) 
+	#ls  "${ctn}/" 
+	#echo "#################################"
 	cd "${ctn}/offline"
 	rm -rf ".tmp"
 	mksh build_nix.ksh #This will create an executable with name "cable"
