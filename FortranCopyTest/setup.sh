@@ -12,23 +12,20 @@ for p in $baseInputs $buildInputs; do
 done
 
 function unpackPhase(){
-	#bd="${src}.bak"
-	#cp -ar $src $bd
-	#echo "##################"
-	#echo $src
+	echo $src
 	#ls 
 	#ls $bd
-	#pwd
 	#echo $out
-	#echo "##################"
-	#cd $src
+	echo "##################"
 	tar xzf $src
 	for d in *; do
 		if [ -d "$d" ]; then
 			cd "$d"
+			pwd
 			break
 		fi
 	done
+	echo "##################"
 }
 
 function buildPhase(){
