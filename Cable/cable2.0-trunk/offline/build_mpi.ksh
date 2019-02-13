@@ -2,8 +2,25 @@
 
 known_hosts()
 {
-   set -A kh cher burn shin  raij pear
+   set -A kh cher burn shin raij pear 
 }
+
+
+## 
+host_Geor()
+{
+   export NCDIR='/'
+   export NCMOD='/'
+   export FC=ifort
+   export CFLAGS='-O2 -fp-model precise'
+   export LD='-lnetcdf'
+   export LDFLAGS='-L/lib -O2'
+   build_build
+   cd ../
+   build_status
+}
+
+
 
 ## raijin.nci.org.au
 host_raij()

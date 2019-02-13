@@ -31,10 +31,20 @@ function buildPhase(){
 	#echo "#################################"
 	cd "${ctn}/offline"
 	rm -rf ".tmp"
-	mksh build_nix.ksh #This will create an executable with name "cable"
+	#mksh build_nix.ksh #This will create an executable with name "cable"
+	mksh build_mpi_nix.ksh #This will create an executable with name "cable"
 }
 function installPhase(){
-	mv cable $out
+	#mv cable $out
+	mv cable-mpi $out
+	cd ../..
+	mkdir -p run
+	cd run
+	for name in namelistDir our_gswp surface_data
+		do mkdir -p $name
+	done
+
+
 
 }
 function fixupPhase(){

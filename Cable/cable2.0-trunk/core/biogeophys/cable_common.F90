@@ -375,8 +375,8 @@ CONTAINS
                vegin%rpcoef(jveg),                                     &
                vegin%rs20(jveg)
           READ(40,*) vegin%tminvj(jveg), vegin%tmaxvj(jveg),                 &
-               vegin%vbeta(jveg), vegin%rootbeta(jveg),                      &
-               vegin%zr(jveg), vegin%clitt(jveg)
+               vegin%vbeta(jveg), vegin%rootbeta(jveg) !,                      &
+               !vegin%zr(jveg), vegin%clitt(jveg)
           READ(40,*) vegin%cplant(1:3,jveg), vegin%csoil(1:2,jveg)
           ! rates not currently set to vary with veg type
           READ(40,*) vegin%ratecp(1:3,jveg), vegin%ratecs(1:2,jveg)

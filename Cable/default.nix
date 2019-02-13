@@ -5,6 +5,6 @@ in mkDerivation {
   name ="cable";
   src =./cable2.0-trunk;
   ##src =./cable2.0-trunk.tgz;
-  buildInputs = with pkgs; [ mksh gfortran netcdffortran ];
+  buildInputs = with pkgs; [ mksh gfortran netcdffortran openmpi ];
   ncd= with pkgs; netcdffortran;
 }
