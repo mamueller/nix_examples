@@ -23,10 +23,13 @@ function unpackPhase(){
 
 function buildPhase(){
 	gfortran hello.F90
+
 }
 function installPhase(){
+	#mkdir -p $out/bin
 	mv a.out hello
 	chmod +x hello
+	#mv hello $out/bin
 	mv hello $out
 
 }
