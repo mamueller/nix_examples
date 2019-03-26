@@ -1,0 +1,2 @@
+The code does not work at the moment, since the Nixpill 13 where it came from is outdated.
+The problem is that the gd library (and possible others) is not found by the graphviz configure script. 
