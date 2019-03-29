@@ -1,2 +1,3 @@
-The code does not work at the moment, since the Nixpill 12 where it came from is outdated.
-The problem is that the gd library (and possible others) is not found by the graphviz configure script. 
+The old code does not work  since the Nixpill 12 where it came from is outdated.
+
+The problem is that the gd library (and possible others) is not found by the graphviz configure script. The new version of graphviz is a copy from thegit repo and works but uses a completely different infrastructure. 

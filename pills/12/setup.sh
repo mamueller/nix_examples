@@ -22,7 +22,7 @@ function unpackPhase(){
 }
 
 function configurePhase(){
-	./configure --prefix=$out
+	./configure --prefix=$out 
 }
 function buildPhase(){
 	make
