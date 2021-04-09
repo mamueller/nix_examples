@@ -1,13 +1,12 @@
-let 
-  pkgs = import <nixpkgs> {};
-  #ft = pkgs.stdenv.mkDerivation {
-  ft = pkgs.mkShell {
-    name = "fiotest";
-    src = ./src;
-    buildInputs = [pkgs.fio];
-    shellHook = ''
-      echo "running fio tests"
-      fio src/jobs
-    '';
-};
-in ft
+{ pkgs ? import <nixpkgs> {} }:
+
+with pkgs;
+
+mkShell {
+  name = "fio-test-result";
+  #src = src/jobs;
+  shellHook = ''
+    echo "running fio tests"
+    ${fio}/bin/fio --output fio.$$.out src/jobs
+  '';
+}
